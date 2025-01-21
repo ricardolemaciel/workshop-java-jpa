@@ -23,7 +23,7 @@ O objetivo do workshop é ensinar os fundamentos de persistência de dados utili
 ## 📁 Estrutura do Projeto
 
 O projeto está estruturado da seguinte forma:
-
+```plaintext
 src/
 ├── main/
 │   ├── java/
@@ -52,6 +52,6 @@ src/
    cd workshop-java-jpa
    
 2. **Compile e execute o projeto com Maven:**
-  ```bash
+   ```bash
    mvn spring-boot:run
 
