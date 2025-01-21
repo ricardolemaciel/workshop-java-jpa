@@ -36,7 +36,7 @@ src/
 │       ├── application.properties # Configuração da aplicação
 │       └── data.sql               # Script SQL de inicialização
 └── test/                          # Testes unitários e de integração
-
+```
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
