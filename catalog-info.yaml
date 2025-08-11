@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Api
 metadata:
   name: workshop-java-jpa
-  description: 
+  description: Descrição do projeto
   tags:
     - backend
 spec:
