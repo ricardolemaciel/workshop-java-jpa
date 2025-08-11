@@ -1,15 +1,8 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
-  name: workshop-java-jpa
-  description: API do workshop Java JPA em desenvolvimento
+  name: "teste-backstage-create"
 spec:
-  type: openapi
-  lifecycle: development
-  owner: ricardolemaciel
-  definition:
-    openapi: 3.0.0
-    info:
-      title: Workshop Java JPA API
-      version: 1.0.0
-    paths: {}
+  type: service
+  owner: user:guest
+  lifecycle: experimental
