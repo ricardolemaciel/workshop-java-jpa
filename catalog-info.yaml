@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "teste-backstage-create"
+  name: "workshop-java-jpa"
 spec:
   type: service
-  owner: user:guest
-  lifecycle: experimental
+  owner: ricardolemaciel
+  lifecycle: development
