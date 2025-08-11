@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Api
 metadata:
-  name: meu-servico
-  description: Um serviço legal
+  name: workshop-java-jpa
+  description: 
   tags:
     - backend
 spec:
   type: service
-  lifecycle: production
-  owner: equipe-x
+  lifecycle: development
+  owner: ricardolemaciel
