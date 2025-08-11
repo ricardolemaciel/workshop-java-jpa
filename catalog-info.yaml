@@ -2,10 +2,16 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: workshop-java-jpa
-  description: Descrição do projeto
-  tags:
-    - backend
+  description: API do workshop Java JPA em desenvolvimento
 spec:
-  type: service
+  type: openapi
   lifecycle: development
   owner: ricardolemaciel
+  definition:
+    $text: |-
+      openapi: 3.0.0
+      info:
+        title: Workshop Java JPA API
+        version: 1.0.0
+      paths: {}
+
