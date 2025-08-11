@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: meu-servico
+  description: Um serviço legal
+  tags:
+    - backend
+spec:
+  type: service
+  lifecycle: production
+  owner: equipe-x
